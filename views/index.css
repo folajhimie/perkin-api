@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+@media (min-width:320px) {
+    body {
+        background-color: black;
+        margin: 10%;
+    }
+
+    .maincontainer {
+        background-color: #ffffff;
+        padding: 8%;
+        position: relative;
+    }
+}
+
+.payment-details {
+    padding-top: 2%;
+    /* border: 1px solid black */
+}
+
+.apartment-details {
+    padding-top: 3%;
+    /* border: 1px solid black */
+}
+
+.footer {
+    padding-top: 3%;
+    /* border: 1px solid black */
+}
+
+img {
+    width: 117px;
+    height: 40px;
+    position: static;
+    top: 18%;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 20.48px;
+    color: #121113;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 19.2px; */
+    color: #121113;
+    padding-bottom: 1.5%;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #63636F;
+}
+
+@media (min-width:480px) {
+    body {
+        background-color: black;
+        margin: 10%;
+    }
+
+    .maincontainer {
+        background-color: #ffffff;
+        padding: 8%;
+        position: relative;
+    }
+
+    .payment-details {
+        padding-top: 2%;
+        /* border: 1px solid black */
+    }
+
+    .apartment-details {
+        padding-top: 3%;
+        /* border: 1px solid black */
+    }
+
+    .footer {
+        padding-top: 3%;
+        /* border: 1px solid black */
+    }
+
+    img {
+        width: 117px;
+        height: 40px;
+        position: static;
+        top: 18%;
+    }
+
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 20.48px;
+        color: #121113;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        /* line-height: 19.2px; */
+        color: #121113;
+        padding-bottom: 1.5%;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #63636F;
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        background-color: black;
+        margin: 15%;
+    }
+
+    .maincontainer {
+        background-color: #ffffff;
+        padding: 8%;
+        position: relative;
+    }
+
+    .payment-details {
+        padding-top: 2%;
+        /* border: 1px solid black */
+    }
+
+    .apartment-details {
+        padding-top: 3%;
+        /* border: 1px solid black */
+    }
+
+    .footer {
+        padding-top: 3%;
+        /* border: 1px solid black */
+    }
+
+    img {
+        width: 117px;
+        height: 40px;
+        position: static;
+        top: 18%;
+    }
+
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 20.48px;
+        color: #121113;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        /* line-height: 19.2px; */
+        color: #121113;
+        padding-bottom: 1.5%;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #63636F;
+    }
+}
+
+@media (min-width:801px) {
+    body {
+        background-color: black;
+        margin: 20%;
+    }
+
+    .maincontainer {
+        background-color: #ffffff;
+        padding: 8%;
+        position: relative;
+    }
+
+    .payment-details {
+        padding-top: 2%;
+    }
+
+    .apartment-details {
+        padding-top: 3%;
+    }
+
+    .footer {
+        padding-top: 3%;
+    }
+
+    img {
+        width: 117px;
+        height: 40px;
+        position: static;
+        top: 18%;
+    }
+
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 20.48px;
+        color: #121113;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #121113;
+        padding-bottom: 1.5%;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #63636F;
+    }
+}
+
+@media (min-width:1025px) {
+    body {
+        background-color: black;
+        margin: 25%;
+    }
+
+    .maincontainer {
+        background-color: #ffffff;
+        padding: 8%;
+        position: relative;
+    }
+
+    .payment-details {
+        padding-top: 2%;
+    }
+
+    .apartment-details {
+        padding-top: 3%;
+    }
+
+    .footer {
+        padding-top: 3%;
+    }
+
+    img {
+        width: 117px;
+        height: 40px;
+        position: static;
+        top: 18%;
+    }
+
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 20.48px;
+        color: #121113;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #121113;
+        padding-bottom: 1.5%;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #63636F;
+    }
+}
+
+@media (min-width:1281px) {
+    body {
+        background-color: black;
+        margin: 30%;
+    }
+
+    .maincontainer {
+        background-color: #ffffff;
+        padding: 8%;
+        position: relative;
+    }
+
+    .payment-details {
+        padding-top: 2%;
+    }
+
+    .apartment-details {
+        padding-top: 3%;
+    }
+
+    .footer {
+        padding-top: 3%;
+    }
+
+    img {
+        width: 117px;
+        height: 40px;
+        position: static;
+        top: 18%;
+    }
+
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 20.48px;
+        color: #121113;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #121113;
+        padding-bottom: 1.5%;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #63636F;
+    }
+}

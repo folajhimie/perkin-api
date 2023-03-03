@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email Verified</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <!-- <style>
+            body {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            height: 100vh;
+            display: flex; 
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                width: 50%;
+                align-items: 25px;
+                padding-top: 10px;
+                align-self: center;
+            }
+        </style> -->
+        <!-- <style>
+            .maincontainer {
+                background-color: #ffffff;
+                padding: 8%;
+                position: relative;
+            }
+
+            .payment-details {
+                padding-top: 2%;
+                /* border: 1px solid black */
+            }
+
+            .apartment-details {
+                padding-top: 3%;
+                /* border: 1px solid black */
+            }
+
+            .footer {
+                padding-top: 3%;
+                /* border: 1px solid black */
+            }
+
+            img {
+                width: 117px;
+                height: 40px;
+                position: static;
+                top: 18%;
+            }
+
+            h4 {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 900;
+                font-size: 13px;
+                line-height: 20.48px;
+                color: #121113;
+            }
+
+            h3 {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 20.48px;
+                color: #121113;
+            }
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                /* line-height: 19.2px; */
+                color: #121113;
+                padding-bottom: 1.5%;
+            }
+
+            h5 {
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 17px;
+                color: #63636F;
+            }
+        </style> -->
+
+
+
+
+        <!-- <script>
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const error = urlParams.get("error");
+            const message = urlParams.get("message");
+
+            const bodyContent = !error 
+            ? 
+            `<div style="backgorund-color:#065f46;">
+                <h2>Email has been Verified</h2>
+
+                <h3>You can now Log in</h3>
+
+                <p>@Carttel Store</p>
+            </div>`
+            : `
+            <div style="backgorund-color:#99181B;">
+                <h2>${message}</h2>
+                <p>@Black Hemisphere</p>
+            </div>
+            `
+        </script> -->
+    </head>
+
+    <body>
+        <div class="maincontainer">
+            <div class="intro">
+                <img src="https://raw.githubusercontent.com/Bantale/Resido-payment-email/main/Images/Resido%20logo.fw.png"
+                    alt="logo"> <br>
+                <img src="../assets/logo.png" alt="Instagram" srcset=""/>
+                <h3>Welcome Onboard!</h3>
+                <p>Hi ,<br /><br />Thank you for joining the Instragram community! We've received your order. </p>
+
+            </div>
+            <div class="payment-details">
+                <h4>Payee Details</h4>
+                <h5>Name</h5>
+                <!-- <p>{{fullname}}</p> -->
+                <h5>WhatsApp Number</h5>
+                <!-- <p>{{whatsapp_number}}</p> -->
+                <h5>Alt WhatsApp Number</h5>
+                <!-- <p>{{alt_whatsapp_number}}</p> -->
+            </div>
+            <div class="apartment-details">
+                <h4>Apartment Details</h4>
+                <h5>Apartment Type</h5>
+                <!-- <p>{{apartment_type}}</p> -->
+                <h5>Location</h5>
+                <!-- <p>{{location}}</p> -->
+                <h5>Home Address</h5>
+                <!-- <p>{{address}}</p> -->
+                <h5>Frequency</h5>
+                <!-- <p>{{frequency}}</p> -->
+            </div>
+            <div class="footer">
+                <p>If you have any help with anything, do not hesitate to send an email to
+                    <span style="color: #2BA2D3;">hello@resido.com</span>
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>

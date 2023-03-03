@@ -1,0 +1,101 @@
+20221127	13:39:03	03977ab1-bf46-4529-9971-18dc895024ec	ReferenceError: h is not defined	OPTIONS	/auth/login	http://localhost:5000
+20221127	13:39:03	49d54db4-9a13-42b7-b6fd-edfc3afa359d	ReferenceError: h is not defined	POST	/auth/login	http://localhost:5000
+20221127	13:39:03	022164bf-5460-4746-8fbf-3719fee27d32	ReferenceError: h is not defined	GET	/auth/refresh	http://localhost:5000
+20221127	13:39:03	47c904ae-99f4-4430-aeec-a95429724da0	ReferenceError: h is not defined	GET	/users	http://localhost:5000
+20221218	13:50:20	1b852210-28b5-4d2d-aac3-bd790d7ec248	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	13:52:08	fd88bdc2-bfbd-483f-ba6b-c5107420acb0	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:02:00	b005a76a-7f99-4e0d-8903-0a8685af60b0	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:05:36	6c5ff69c-9d3a-4432-95ba-4c996e07fbfe	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:08:17	c5b2d3fd-7021-4c7b-aeec-ce47faeaf766	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:09:08	d55042c7-7d2d-484a-9e70-73de14f458ce	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:11:42	346009be-3228-48e8-be39-18d47afb3241	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:31:16	09605dbc-cd7c-404d-9f8b-fec7d1ff54d2	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:32:30	ba5c68cc-db09-4900-af99-7b1267d4beee	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:35:06	3379931e-f4ba-440b-97bb-d7652793e3a8	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:36:22	ba0acf77-7e0a-4fa7-9ebe-abf6173d8eb9	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:38:39	873702c2-eaad-45cd-aa65-78570ef6ab99	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	14:44:45	d08f6b28-dcca-4cd3-b01f-0381d0845c5d	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	15:37:51	2f227423-0d0f-4521-b976-40f214270e3c	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221218	20:48:36	e035c27e-1c7c-43ed-86a3-831e6a305a77	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221220	14:35:53	65f519d8-36ac-4bef-9d9d-bbc611b7f94e	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verified?error=true&message=Account%20record%20doesn%27t%20exist%20or%20has%20been%20verified%20already.%20Please%20sign%20up%20or%20Log%20in.	http://localhost:5000
+20221220	14:36:02	39d550be-e0d8-414b-bfc4-c22bee48f903	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/	http://localhost:5000
+20221220	18:32:44	87a302c9-d188-43e9-b1dd-5ddcbf328957	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verified?error=true&message=Invalid%20verification%20details%20passed.%20Check%20your%20Inbox	http://localhost:5000
+20221220	20:22:31	8bd9d635-2bde-4477-b62a-37014f75c018	TypeError: User.find(...).toJSON is not a function	GET	/user/verify/63a203ac208958b332ea50ff/$2b$10$XyRNGsvtRpQVKTKiuJ4x8Ov.OJ4LncuHmTJRNnImuUaBNbwf22FQa	http://localhost:5000
+20221220	20:22:37	e84f7084-dbd9-4b6b-b4bd-03d34e1a5ebf	TypeError: User.find(...).toJSON is not a function	GET	/user/verify/63a203ac208958b332ea50ff/$2b$10$XyRNGsvtRpQVKTKiuJ4x8Ov.OJ4LncuHmTJRNnImuUaBNbwf22FQa	http://localhost:5000
+20221221	19:18:17	e19cda59-b810-41a8-b9df-dcb983b89900	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	19:44:44	95bfa5fc-f7df-4f21-90a2-966eb6b06d0f	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	19:44:50	2e79e311-e82a-479a-80d0-c4e31e997964	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	19:45:17	854e23e9-7dfe-4509-9d2d-10e6fe157c86	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	19:45:22	349cd5dd-2f16-4444-b122-0a7c763ce025	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	19:45:27	0a2f454b-4764-4007-aa60-d5df3a7939de	Error: Not allowed by CORS	GET	/user	undefined
+20221221	19:45:35	cc56abfa-522a-4fcc-a3cb-46a48a455ff1	Error: Not allowed by CORS	GET	/user	undefined
+20221221	19:45:38	01a4110f-5871-4638-9dc2-d47a64badf39	Error: Not allowed by CORS	GET	/user	undefined
+20221221	19:45:48	4fbb09fd-ce61-4b8e-9711-a0b08a0f77f1	Error: Not allowed by CORS	GET	/user	undefined
+20221221	19:45:50	4f58bbc3-4168-4091-aa5f-9001c0937726	Error: Not allowed by CORS	GET	/user	undefined
+20221221	23:34:50	a4641a45-8307-4c5d-9ec8-9b7539108c0a	Error: Not allowed by CORS	GET	/user	undefined
+20221221	23:34:57	d2e47249-03dc-4be3-912d-b26bd784f75c	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:35:56	43668b5e-b744-4de0-9d13-aaa721419662	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:35:58	6b25b40a-03f7-41c7-a641-390770dc1c55	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:36:43	48f6faa0-b5bd-42f8-9ad5-35c3199c2466	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:37:06	18d0a606-408b-4590-bbaa-2e254b482c6f	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:39:15	424ca455-152e-48e3-a8e2-e581316ec12c	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:40:22	daa36213-f25d-4acd-be77-e2cfc90adf37	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:41:01	c1110a5e-0e89-4f30-8ffb-31b3f6500906	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:41:46	0ae56969-853e-4a03-8062-b1eac2bc10e0	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:43:09	3506ebf5-64d9-4230-acd1-bc2afd230fde	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:43:52	f0e121d1-7008-48d2-bddf-fb79416702a4	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221221	23:51:55	42d9557f-1cd2-482a-87d9-80a1c9f56797	Error: Not allowed by CORS	GET	/user/verified	undefined
+20221222	01:01:15	252be8c9-6af4-40ca-a41a-7e6e00f003f8	Error: Not allowed by CORS	GET	/user/verify/63a2c5a580b395d5a149bbfd/$2b$10$WAHIgM5dP1TpTR6cA4KGQONQEz2kSBP67mm99sgU7w8qHmLGdevkC	http://localhost:5000
+20221222	01:16:57	64a62232-bbce-42f0-9ece-e6d83d5ad288	Error: Cannot set headers after they are sent to the client	GET	/user/verify/63a2c5a580b395d5a149bbfd/$2b$10$WAHIgM5dP1TpTR6cA4KGQONQEz2kSBP67mm99sgU7w8qHmLGdevkC	http://localhost:5000
+20221222	01:17:43	888a6f04-7d25-4b60-b997-ee5cb5843560	Error: Cannot set headers after they are sent to the client	GET	/user/verify/63a2c5a580b395d5a149bbfd/$2b$10$WAHIgM5dP1TpTR6cA4KGQONQEz2kSBP67mm99sgU7w8qHmLGdevkC	http://localhost:5000
+20221222	01:19:29	391106e1-5533-470f-9398-a0772e058f91	Error: Cannot set headers after they are sent to the client	OPTIONS	/auth/register	http://localhost:5000
+20221222	01:19:29	41373b4c-cbe5-4402-9f18-f50a18a14147	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221222	01:19:49	5c488e60-39b2-467d-ae1b-47e2b9882515	Error: Cannot set headers after they are sent to the client	OPTIONS	/auth/register	http://localhost:5000
+20221222	01:19:50	cd4d0030-f23c-4463-8259-4cbe35ea0df6	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221222	01:24:27	728e8464-ccb5-4e03-a35c-23d99797567c	Error: Cannot set headers after they are sent to the client	OPTIONS	/auth/register	http://localhost:5000
+20221222	01:24:27	7fa9696f-b045-4286-bebd-d887f8739be3	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221222	01:24:44	e6d38506-478e-44ca-b548-324708497122	Error: Cannot set headers after they are sent to the client	OPTIONS	/auth/register	http://localhost:5000
+20221222	01:24:45	d0ae7320-9a92-408e-8e99-0bda2aaa8c66	Error: Cannot set headers after they are sent to the client	POST	/auth/register	http://localhost:5000
+20221223	22:40:06	ba9f0c23-6f6e-4ddb-b89e-e1110f433469	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221223	22:40:13	a2fff213-5cab-40c4-95fb-5a66fa2c64a5	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221223	22:40:13	900079f5-da04-48f6-8f45-c94fed3d7b08	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221223	22:41:25	a94d5b1a-96a6-429a-8506-76404dfe76c5	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221224	12:32:00	fde01ebc-2a53-4ad9-861c-b474703f954d	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221224	12:32:06	5e2fda30-a59d-4643-abe2-1c4c670aaf60	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:32:06	588fb743-885b-4484-ac6b-0cc305a3709f	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:32:06	ea3d5d4a-e3eb-4536-8ad8-44ee0f54a3b2	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:32:06	6d13b8dc-a2ab-42a2-a871-3e83d43d05c4	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:34:43	ac6b456c-b82d-4be6-bb99-02b297c8fb74	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:34:43	26907011-909b-4508-bd72-bcbba6560f0c	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:35:17	2d1b1091-3a1b-4ba9-99ab-44f0ce0daf04	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221224	12:35:17	be73386d-df8b-4e85-9b98-d145060faad9	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:35:17	66182030-aa1a-43f6-a783-cb679cd6913a	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:30	d2c3b806-b3d1-47c7-a76b-1d9622cd113d	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:51	43f74fd7-48d2-48ef-9148-a8bed3f01a8d	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a5daab95ee7945c9e65e25/02ff77cf-3c23-49cb-9f0e-1316e2e1026363a5daab95ee7945c9e65e25	http://localhost:5000
+20221224	12:36:51	80614517-9a1b-458c-ad1b-d8ad2a1a9c4e	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:51	e0360b67-af8e-47fc-a944-6d1ccea918c6	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:56	795ac84d-78ba-4b83-bb6c-a046cfff6542	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:56	613c9e62-d522-42bb-8d5e-72053152ab66	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:56	14a6706f-2429-4303-9eef-7823a4d4f468	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221224	12:36:56	1a05b3dd-1a75-43a8-8ec1-64ca760b53c7	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6e1b8103903b10d30f725/87b4e0bf-d7ec-4efd-a3d4-c13890a3ec9b63a6e1b8103903b10d30f725	http://localhost:5000
+20221228	11:59:06	5ef4061c-bea9-4be3-a583-8f387cbf56b4	ReferenceError: code is not defined	GET	/user/get-code	http://localhost:5000
+20221228	12:05:02	f7a60a4b-95cb-4c7c-a5e3-b1769c7078d1	ReferenceError: otp is not defined	POST	/user/get-code	http://localhost:5000
+20221228	12:05:43	6b70bd68-22b8-429b-aa9d-8745c30aa777	ReferenceError: otp is not defined	POST	/user/get-code	http://localhost:5000
+20221228	12:06:17	3d08fccd-a8c0-45fc-ba90-d17dad76883f	ReferenceError: otp is not defined	POST	/user/get-code	http://localhost:5000
+20221228	12:06:17	2501509f-beb4-4a05-8745-40538f1951fe	ReferenceError: otp is not defined	POST	/user/get-code	http://localhost:5000
+20221228	12:07:01	c3b4fd9f-5723-47ad-840f-60188c9d5610	ReferenceError: otp is not defined	POST	/user/get-code	http://localhost:5000
+20221228	12:25:55	b3fbd4f3-231b-47d2-b951-952dbbe8eb44	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:26:02	b482b5e4-2e21-453a-8d26-7e4cd7622cd4	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:28:04	33177f3d-933b-4dff-8d01-674e34b4dbbe	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:28:48	8f47f855-0f64-48bd-98bc-d8ba74e204cb	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:28:50	c54c56ff-7db9-4f30-9973-0684f6644854	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:28:54	764f0c2f-3de7-416a-bad9-3e8689fb165e	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:31:18	4b521310-9544-44b1-b7e4-26202e47c6bc	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:31:57	e4d248ce-7d75-4373-9353-69ee27a04ef7	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221228	12:34:34	f38be425-c1ed-44f1-ad54-92cc3bcaddd7	TypeError: Cannot read property 'code' of null	POST	/user/get-code	http://localhost:5000
+20221230	08:47:34	b0069054-0d66-44a0-858d-92a59bdb0dcb	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6ff7e87c58d7328d6211f/0b090867-5cc1-4719-bd14-7ed4c10b170d63a6ff7e87c58d7328d6211f	http://localhost:5000
+20221230	08:47:34	574e684c-d727-47d3-982f-de1121e67e21	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6ff7e87c58d7328d6211f/0b090867-5cc1-4719-bd14-7ed4c10b170d63a6ff7e87c58d7328d6211f	http://localhost:5000
+20221230	08:47:34	0b10cc67-24f7-4607-9712-9923df9cf70b	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	GET	/verify/63a6ff7e87c58d7328d6211f/0b090867-5cc1-4719-bd14-7ed4c10b170d63a6ff7e87c58d7328d6211f	http://localhost:5000
+20221230	08:48:01	0ae3bf0d-d887-4195-af54-ddd48e018613	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/reset-password/3cdad711bb39b2861766e91eb814978f443df008a5397e5c15efd2d81479e41a63a6ff7e87c58d7328d6211f	http://localhost:5000
+20221230	08:48:04	3830574a-177d-4886-a07f-d3bdc4d8e1d7	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/reset-password/3cdad711bb39b2861766e91eb814978f443df008a5397e5c15efd2d81479e41a63a6ff7e87c58d7328d6211f	http://localhost:5000
+20230101	21:32:57	67c64d09-8e7d-4c2f-bfee-132a3e0fc7cd	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	PUT	/send-otp/a27f4114ae8fb45ad45b5a498410f4312310bd6292e908d64b4f9cb28d0c5f2863b1eb874a293ed970e07be5	http://localhost:5000

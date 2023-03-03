@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+  
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+  
+body {
+    margin: 0;
+    /* font-family: "Roboto", "Helvetica Neue", Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #868ba1;
+    text-align: left;
+    background-color: #f0f2f7;
+}
+  
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    background-color: #ffffff;
+    padding: 8%;
+    position: relative;
+}
+
+.payment-details {
+    padding-top: 2%;
+    /* border: 1px solid black */
+}
+
+.apartment-details {
+    padding-top: 3%;
+    /* border: 1px solid black */
+}
+
+.footer {
+    padding-top: 3%;
+    /* border: 1px solid black */
+}
+
+img {
+    width: 117px;
+    height: 40px;
+    position: static;
+    top: 18%;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 20.48px;
+    color: #121113;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20.48px;
+    color: #121113;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 19.2px; */
+    color: #121113;
+    padding-bottom: 1.5%;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #63636F;
+}
